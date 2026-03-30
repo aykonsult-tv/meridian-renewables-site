@@ -5,7 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Advisory Services — Meridian Renewables</title>
 <meta name="description" content="Meridian's independent advisory practice delivers high-conviction insights and technical diligence to institutional stakeholders navigating the African energy transition.">
-<meta name="theme-color" content="#0B5E4A">
+<meta name="theme-color" content="#0B5E4A" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#121518" media="(prefers-color-scheme: dark)">
 <link rel="canonical" href="https://www.meridian-renewables.com/advisory.html">
 <link rel="icon" type="image/png" href="images/favicon.png">
 <link rel="apple-touch-icon" href="images/favicon.png">
@@ -30,7 +31,7 @@
 <nav class="nav" id="nav">
   <div class="nav-inner">
     <a href="index.html" class="nav-logo">
-      <img src="images/logo-horizontal.png" alt="Meridian Renewables">
+      <picture><source srcset="images/logo-horizontal-dark.png" media="(prefers-color-scheme: dark)"><img src="images/logo-horizontal.png" alt="Meridian Renewables"></picture>
     </a>
     <ul class="nav-links" id="navLinks">
       <li><a href="index.html">Home</a></li>
@@ -63,7 +64,6 @@
     <div class="about-grid fade-up">
       <div class="about-image-wrap">
         <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80" alt="Financial analysis and advisory">
-        <div class="about-accent"></div>
       </div>
       <div class="about-text">
         <span class="section-tag">Beyond the Portfolio</span>
@@ -216,13 +216,13 @@
 </section>
 
 <!-- VISUAL BREAK -->
-<section style="position:relative; height:360px; overflow:hidden;">
-  <div style="position:absolute; inset:0; background:url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=1400&q=70') center/cover no-repeat;"></div>
-  <div style="position:absolute; inset:0; background:linear-gradient(135deg, rgba(11,94,74,0.88), rgba(29,158,117,0.72));"></div>
-  <div class="container" style="position:relative; z-index:2; height:100%; display:flex; align-items:center; justify-content:center; text-align:center;">
+<section class="visual-break">
+  <div class="visual-break-bg" style="background-image:url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=1400&q=70');"></div>
+  <div class="visual-break-overlay" style="background:linear-gradient(135deg, rgba(11,94,74,0.88), rgba(29,158,117,0.72));"></div>
+  <div class="container visual-break-content">
     <div>
-      <p style="font-family:'Montserrat',sans-serif; font-size:clamp(1.4rem,2.5vw,2rem); font-weight:700; color:#fff; line-height:1.4; max-width:740px; margin:0 auto;">We don't offer theoretical consultancy. We provide actionable intelligence from the field.</p>
-      <div style="width:60px; height:3px; background:var(--gold); margin:20px auto 0; border-radius:2px;"></div>
+      <p class="visual-break-quote">We don't offer theoretical consultancy. We provide actionable intelligence from the field.</p>
+      <div class="visual-break-line"></div>
     </div>
   </div>
 </section>
@@ -246,7 +246,7 @@
   <div class="container">
     <div class="footer-grid">
       <div class="footer-brand">
-        <img src="images/logo-horizontal.png" alt="Meridian Renewables">
+        <picture><source srcset="images/logo-horizontal-dark.png" media="(prefers-color-scheme: dark)"><img src="images/logo-horizontal.png" alt="Meridian Renewables"></picture>
         <p>Empowering communities through distributed clean energy infrastructure across Nigeria and sub-Saharan Africa.</p>
       </div>
       <div>
