@@ -1,3 +1,9 @@
+// Load Google Fonts non-blocking (avoids inline onload handler blocked by CSP)
+(function() {
+  var link = document.querySelector('link[media="print"][data-font]');
+  if (link) link.media = 'all';
+})();
+
 // Nav scroll effect
 window.addEventListener('scroll', () => {
   document.getElementById('nav').classList.toggle('scrolled', window.scrollY > 20);
